@@ -1,0 +1,8 @@
+name: hello-world
+on: workflow_dispatch
+jobs:
+  my-job:
+    runs-on: azure-vm-ubuntu-1
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
